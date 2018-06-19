@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+}
+#container{
+	width: 1024px;
+	height: auto;
+	margin:auto;
+	top:10px;
+	box-shadow: 5px 5px 0 0;
+	border-radius: 25px 25px 0 0 ;
+}
+#header{
+	height: 300px;
+	position: relative;
+	background-image: url(river.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	clear: both;
+}
+.avatar img{
+	width: 100px;
+	height: 100px;
+	padding:20px 20px;
+}
+#menu ul{
+	clear: both;
+	background: grey;
+	list-style-type: none;
+	width: 100%;
+}
+#menu ul li {
+	display: inline-table;
+	position: relative;
+}
+#menu ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	padding: 10px 16px;
+	color:white;
+}
+#menu a:hover ,nav a:active {
+	background:green;
+}
+.sub-menu{
+	display: none;
+	position: absolute;
+	padding-left: 0px;
+	padding-right: 20px;
+	width: 200px;
+}
+#menu ul li:hover .sub-menu{
+	display: inline-block;
+}
+.list{
+	float:left;
+	width: 30%;
+}
+.list ul {
+	list-style-image: url(phone.png);
+	border-right: 1px solid black;
+	margin-left: 30px;
+	margin-right: 50px;
+}
+.inf{
+	padding-right: 20px;
+	padding-left: 10px;
+	float: right;
+	width: 70%;
+	text-align: center;
+	text-align: justify;
+}
+#footer{
+	width: 100%;
+	text-align: center;
+	background: orange;
+	clear: both;
+	color: grey;
+}
