@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+}
+#header{
+	background-color: orange;
+	padding: 20px 10px;
+	width: 100%;
+	color: black;
+}
+#content{
+	width: 100%
+}
+.nav{
+	background-color: orange;
+	padding: 10px 10px ;
+	padding-bottom: 400px;
+	width: 30%;
+	color: black;
+	float: left;
+	border: 3px solid white;
+	border-left: none;
+}
+.article{
+	background-color: orange;
+	padding:10px 10px;
+	padding-bottom: 400px;
+	width: 50%;
+	float: left;
+	color: black;
+	border: 3px solid white;
+}
+.ads{
+	background-color: orange;
+	padding: 10px 10px;
+	padding-bottom:400px;
+	width: 20%;
+	float: right;
+	color: black;
+	border: 3px solid white;
+	border-right: none;
+}
+#footer{
+	background-color: orange;
+	clear: both;
+	width: 100%;
+	padding: 20px 20px;
+	padding-bottom: 20px;
+	color: black;
+}

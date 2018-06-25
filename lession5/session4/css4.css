@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+}
+.tweets{
+	width: 25%;
+	height: 800px;
+	text-align: center;
+	padding-top: 20px;
+	background-color: #56ffff;
+	color: white;
+	float: left;
+}
+.replies{
+	width: 25%;
+	height: 800px;
+	text-align: center;
+	padding-top: 20px;
+	background-color: yellow;
+	color: white;
+	float: left;
+}
+.search{
+	width: 25%;
+	height: 800px;
+	text-align: center;
+	padding-top: 20px;
+	background-color: #666666;
+	color: white;
+	float: left;
+}
+.messages{
+	width: 25%;
+	height: 800px;
+	text-align: center;
+	padding-top: 20px;
+	background-color: #007fff;
+	color: white;
+	float: left;
+}
