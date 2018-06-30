@@ -1,6 +1,10 @@
 *{
 	box-sizing: border-box;
 }
+#main{
+	margin: auto;
+	width: 1024px;
+}
 .tweets{
 	width: 25%;
 	height: 800px;
