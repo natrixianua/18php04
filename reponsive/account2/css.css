@@ -1,0 +1,70 @@
+body{
+	background-image: url(display.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+*{
+	box-sizing: border-box;
+}
+form {
+  box-sizing: border-box;
+  width: 260px;
+  margin: 100px auto;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 40px;
+  border-radius: 3px;
+}
+form h1 {
+  box-sizing: border-box;
+  text-align: center;
+  padding-top:20px;
+  padding-bottom: 20px;
+  background: #1abc9c;
+}
+.id ,.pw{
+	position: relative;
+}
+input{
+	width: 200px;
+	margin: 40px 30px;
+	display: block;
+	padding: 10px 40px;
+	border:none;
+	border-bottom: solid 1px #1abc9c;
+}
+.check1{
+	width: 20px;
+	height: 20px;
+	clear: both;
+}
+.check2{
+	width: 20px;
+	height: 20px;
+	clear: both;
+}
+.check11{
+	position: absolute;
+	top: 225px;
+	padding-left: 40px;
+}
+.check22{
+	position: absolute;
+	top:300px;
+	padding-left: 40px;
+}
+button {
+  border: none;
+  background: #1abc9c;
+  border-radius: 3px;
+  padding: 10px;
+  width: 200px;
+  color: white;
+  margin-left: 30px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
