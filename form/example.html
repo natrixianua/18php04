@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>asdfsdaf</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<div id="success">Register success!</div>
+	<form name="register" action="#" id="registerForm">
+		<div id="inputname">
+			<h1>Your Full Name</h1>
+			<input type="text" name="inputname" id="name" placeholder="please input your name">
+			<span id="error_name"></span>
+		</div>
+		<div id="inputphone">
+			<h1>Your Phone Number</h1>
+			<input type="text" name="inputphonenumber" id="phone" placeholder="please input your phone">
+			<span id="error_phone"></span>
+		</div>
+		<div id="gender">
+			<input type="radio" name="gender" id="male"> Male
+			<input type="radio" name="gender" id="female"> Female
+			<input type="radio" name="gender" id="gay"> Gay
+			<span id="error_gender"></span>
+		</div>
+		<div id="province">
+			<h1>Your Province</h1>
+			<select name="city" id="city">
+        		<option value="0"> Tỉnh/thành</option>
+        		<option value="1"> Hà Nội</option>
+        		<option value="2"> Đà Nẵng</option>
+        		<option value="3"> TP. Hồ Chí Minh</option>
+        		<option value="4"> Khác</option>
+        	</select>
+        	<span id="error_province"></span>
+        </div>
+        <div id="complete">
+        	<input type="button" name="complete" onclick="validateRegister();">
+        </div>
+	</form>
+	<script type="text/javascript" src="common.js"></script>
+</body>
+</html>
